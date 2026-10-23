@@ -13,17 +13,6 @@
     padding-right: calc(var(--spacer) / 2);
 }
 
-.item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #9bce0b;
-    color: #fff;
-    padding: 20px;
-    font-weight: 600;
-    font-size: 30px;
-}
-
 .row {
     --spacer-x: var(--spacer);
     --spacer-y: 0;
