@@ -104,4 +104,36 @@
     .address-wrapper iframe {
         min-width: 100%;
     }
+    .footer-wrapper .logo-wrapper {
+        display: flex;
+    }
+
+    .footer-wrapper .logo-wrapper img,
+    .footer-wrapper .logo-wrapper span:not(:last-of-type) {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header-paragraph h1 {
+        font-size: 4.2rem;
+        line-height: 5.2rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header-paragraph h1 {
+        font-size: 3rem;
+        line-height: 3.8rem;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        line-height: 3.4rem;
+    }
 }
